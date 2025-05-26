@@ -1,0 +1,16 @@
+com/hse/filestoringservice/config/FileStorageProperties.class
+com/hse/filestoringservice/exception/FileStorageException.class
+com/hse/filestoringservice/exception/GlobalExceptionHandler.class
+com/hse/filestoringservice/service/AnalysisTriggerService.class
+com/hse/filestoringservice/FileStoringServiceApplication.class
+com/hse/filestoringservice/dto/FileUploadResponseDto.class
+com/hse/filestoringservice/exception/MyFileNotFoundException.class
+com/hse/filestoringservice/exception/DuplicateFileException.class
+com/hse/filestoringservice/service/PhysicalStorageService.class
+com/hse/filestoringservice/service/FileUploadService.class
+com/hse/filestoringservice/model/FileMetadata.class
+com/hse/filestoringservice/controller/FileController.class
+com/hse/filestoringservice/dto/AnalysisInitiationRequestDto.class
+com/hse/filestoringservice/repository/FileMetadataRepository.class
+com/hse/filestoringservice/service/HashingService.class
+com/hse/filestoringservice/config/RestTemplateConfig.class

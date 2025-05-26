@@ -1,0 +1,17 @@
+com/hse/fileanalysisservice/controller/AnalysisController.class
+com/hse/fileanalysisservice/exception/GlobalExceptionHandler.class
+com/hse/fileanalysisservice/exception/AnalysisException.class
+com/hse/fileanalysisservice/dto/AnalysisResultDto.class
+com/hse/fileanalysisservice/model/AnalysisStatus.class
+com/hse/fileanalysisservice/model/AnalysisResult.class
+com/hse/fileanalysisservice/service/AnalysisOrchestrationService.class
+com/hse/fileanalysisservice/service/WordCloudClientService.class
+com/hse/fileanalysisservice/service/FileContentRetrieverService.class
+com/hse/fileanalysisservice/dto/AnalysisRequestDto.class
+com/hse/fileanalysisservice/config/AsyncConfig.class
+com/hse/fileanalysisservice/repository/AnalysisResultRepository.class
+com/hse/fileanalysisservice/service/TextProcessingService.class
+com/hse/fileanalysisservice/config/RestTemplateConfig.class
+com/hse/fileanalysisservice/FileAnalysisServiceApplication.class
+com/hse/fileanalysisservice/exception/RemoteServiceException.class
+com/hse/fileanalysisservice/dto/AnalysisResultDto$Builder.class

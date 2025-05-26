@@ -1,0 +1,45 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
+            allowedHeaders: "*"
+      routes:
+        - id: file-storing-service-upload
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/v1/files/upload
+            - Method=POST
+        - id: file-storing-service-get-meta
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/v1/files/{id}
+            - Method=GET
+        - id: file-storing-service-get-content
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/v1/files/{id}/content
+            - Method=GET
+        - id: file-analysis-service-get-result
+          uri: http://localhost:8082
+          predicates:
+            - Path=/api/v1/analysis/{fileId}
+            - Method=GET
+
+logging:
+  level:
+    org.springframework.cloud.gateway: INFO
+    reactor.netty.http.client: INFO

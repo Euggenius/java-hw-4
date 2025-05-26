@@ -1,0 +1,45 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: file-analysis-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hse_antiplagiat
+    username: youruser
+    password: yourpassword
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  task:
+    execution:
+      pool:
+        core-size: 2
+        max-size: 5
+        queue-capacity: 100
+      thread-name-prefix: AnalysisTask-
+
+file-storing-service:
+  url: http://localhost:8081/api/v1/files
+
+quickchart:
+  wordcloud-api-url: https://quickchart.io/wordcloud
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: method
+
+logging:
+  level:
+    com.hse.fileanalysisservice: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE # For seeing bound parameters in SQL
+    org.springframework.web.client.RestTemplate: DEBUG # To see RestTemplate requests/responses

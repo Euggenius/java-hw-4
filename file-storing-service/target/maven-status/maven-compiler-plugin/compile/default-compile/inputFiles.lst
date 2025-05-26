@@ -1,0 +1,16 @@
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/model/FileMetadata.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/FileStoringServiceApplication.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/service/HashingService.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/exception/GlobalExceptionHandler.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/dto/AnalysisInitiationRequestDto.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/service/PhysicalStorageService.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/service/FileUploadService.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/exception/FileStorageException.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/dto/FileUploadResponseDto.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/exception/DuplicateFileException.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/controller/FileController.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/config/RestTemplateConfig.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/service/AnalysisTriggerService.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/repository/FileMetadataRepository.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/config/FileStorageProperties.java
+/Users/evgenijbojko/anti-plagiarism-system/file-storing-service/src/main/java/com/hse/filestoringservice/exception/MyFileNotFoundException.java

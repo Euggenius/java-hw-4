@@ -1,0 +1,16 @@
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/dto/AnalysisRequestDto.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/service/FileContentRetrieverService.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/controller/AnalysisController.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/config/RestTemplateConfig.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/model/AnalysisResult.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/FileAnalysisServiceApplication.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/config/AsyncConfig.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/exception/GlobalExceptionHandler.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/service/AnalysisOrchestrationService.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/dto/AnalysisResultDto.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/service/WordCloudClientService.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/exception/AnalysisException.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/service/TextProcessingService.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/repository/AnalysisResultRepository.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/exception/RemoteServiceException.java
+/Users/evgenijbojko/anti-plagiarism-system/file-analysis-service/src/main/java/com/hse/fileanalysisservice/model/AnalysisStatus.java

@@ -114,23 +114,21 @@ Response:
    - Обновите настройки в `application.yml` каждого сервиса
    - Укажите правильные учетные данные для базы данных
 
-4. Сборка проекта:
-   ```bash
-   mvn clean package -DskipTests
-   ```
-
-5. Запуск сервисов:
+4. Запуск сервисов:
    ```bash
    # API Gateway
    cd api-gateway
+   mvn clean package -DskipTests
    mvn spring-boot:run
 
    # File Storing Service
    cd file-storing-service
+   mvn clean package -DskipTests
    mvn spring-boot:run
 
    # File Analysis Service
    cd file-analysis-service
+   mvn clean package -DskipTests
    mvn spring-boot:run
    ```
 

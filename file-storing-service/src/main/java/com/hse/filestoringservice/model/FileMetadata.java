@@ -33,10 +33,6 @@ public class FileMetadata {
     @Column(nullable = false)
     private LocalDateTime uploadTimestamp;
 
-    public FileMetadata() {
-        this.uploadTimestamp = LocalDateTime.now();
-    }
-
     public FileMetadata(String originalFileName, String fileHash, String storageLocation, String contentType, long size) {
         this.originalFileName = originalFileName;
         this.fileHash = fileHash;

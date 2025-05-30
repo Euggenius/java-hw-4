@@ -14,14 +14,6 @@ public class FileUploadResponseDto {
     private boolean isDuplicate;
     private String existingFileOriginalName;
 
-    public FileUploadResponseDto(Long fileId, String fileName, String message, boolean isDuplicate, String existingFileOriginalName) {
-        this.fileId = fileId;
-        this.fileName = fileName;
-        this.message = message;
-        this.isDuplicate = isDuplicate;
-        this.existingFileOriginalName = existingFileOriginalName;
-    }
-
     public Long getFileId() {
         return fileId;
     }
